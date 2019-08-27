@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/bottomBarChats"
+            android:icon="@drawable/ic_sport"
+            android:title="@string/bottom_bar.sport" />
+    <item
+            android:id="@+id/bottomBarContacts"
+            android:icon="@drawable/ic_graph"
+            android:title="@string/bottom_bar.graph" />
+
+    <item
+            android:id="@+id/bottomBarCalls"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/bottom_bar.calendar" />
+
+</menu>

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">sport-master</string>
+    <string name="app_name">Sport Master</string>
+
+    <string name="bottom_bar.sport">Sport</string>
+    <string name="bottom_bar.graph">Graph</string>
+    <string name="bottom_bar.calendar">Calendar</string>
 </resources>
