@@ -4,4 +4,21 @@
     <string name="bottom_bar.sport">Sport</string>
     <string name="bottom_bar.graph">Graph</string>
     <string name="bottom_bar.calendar">Calendar</string>
+
+    <!-- Day of week -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <!---->
+
+    <!-- Time of day -->
+    <string name="time_of_day_without_seconds">%1$d:%2$d</string>
+    <!---->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
