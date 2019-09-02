@@ -1,4 +1,4 @@
-package info.tduty.sport_master.ui
+package info.tduty.sport_master.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

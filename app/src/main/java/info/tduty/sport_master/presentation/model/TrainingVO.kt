@@ -1,4 +1,4 @@
-package info.tduty.sport_master.ui.training
+package info.tduty.sport_master.presentation.model
 
 import info.tduty.sport_master.utils.DayOfWeek
 

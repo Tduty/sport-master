@@ -1,4 +1,4 @@
-package info.tduty.sport_master.ui.training
+package info.tduty.sport_master.presentation.ui.training.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,14 +6,20 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import info.tduty.sport_master.utils.DateConverter
 import info.tduty.sport_master.R
+import info.tduty.sport_master.presentation.model.TrainingVO
 import kotlinx.android.synthetic.main.item_training.view.*
 
 /**
  * Created by Evgeniy Mezentsev on 2019-08-30.
  */
-class TrainingAdapter : RecyclerView.Adapter<TrainingAdapter.ViewHolder>() {
+class TrainingListAdapter : RecyclerView.Adapter<TrainingListAdapter.ViewHolder>() {
 
-    private val list: List<TrainingVO> = ArrayList()
+    private val list: MutableList<TrainingVO> = ArrayList()
+
+    fun setTrainingList(trainingList: List<TrainingVO>) {
+        list.clear()
+        list.addAll(trainingList)
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_training, parent, true)
